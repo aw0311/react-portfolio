@@ -17,6 +17,7 @@ function App() {
         <Route path="projects" element={<Projects />} />
       </Route>
     </Routes>
+    <p>Hello</p>
     </>
   )
 }
