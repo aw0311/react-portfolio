@@ -1,0 +1,47 @@
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .content-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 1200px;
+        padding: 7rem;
+
+        .text-zone {
+            width: 50%;
+        }
+
+        h1 {
+            color: white;
+            font-size: 100px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            animation: fadeIn 1s 1.6s backwards;
+        }
+
+        h2 {
+            color: #8d8d8d;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 40px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            animation: fadeIn 1s 1.8s backwards;
+        }
+
+        p {
+            color: yellow;
+            animation: fadeIn 1s 2.0s backwards;
+            font-size: 15px;
+        }
+
+        a {
+            color: yellow;
+        }
+    }
+}
