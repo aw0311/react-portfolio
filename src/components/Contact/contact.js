@@ -5,6 +5,7 @@ const Contact = () => {
 
     useEffect(() => {
             document.title = "Adam's Portfolio | Contact";
+            window.scrollTo(0, document.body.scrollHeight);
     }, []);
 
     return (

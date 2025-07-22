@@ -1,7 +1,6 @@
 body {
-    overflow: auto;
-    margin-top: 10rem;
     margin-bottom: 10rem;
+    overflow: hidden;
 }
 
 .projects-page {
@@ -13,13 +12,12 @@ body {
     .content-container {
         display: flex;
         align-items: center;
+        flex-direction: column;
         justify-content: space-around;
-        width: 100%;
-        max-width: 1200px;
-        padding: 7rem;
+        max-width: 1600px;
 
-        .text-zone {
-            width: 60%;
+        .title-zone {
+            width: 100%;
 
             .resume-link {
                 font-size: 20px;
@@ -65,8 +63,6 @@ body {
             }
         }
 
-
-
         .image {
             img {
                 width: 300px;
@@ -91,11 +87,25 @@ body {
 
         .project-zone {
             display: flex;
+            flex-direction: row;
             justify-content: space-between;
+            gap: 5rem;
         }
 
         .description {
             margin-right: 5rem;
+        }
+
+        .project-zone-1 {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .project {
+            display: flex;
+            justify-content: space-between;
         }
     }
 }

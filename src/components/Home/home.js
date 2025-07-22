@@ -8,6 +8,7 @@ const Home = () => {
 
     useEffect(() => {
         document.title = "Adam's Portfolio | Home";
+        window.scrollTo(0, document.body.scrollHeight);
     }, []);
 
     return (

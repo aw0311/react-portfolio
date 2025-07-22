@@ -13,6 +13,7 @@ const About = () => {
 
     useEffect(() => {
         document.title = "Adam's Portfolio | About Me";
+        window.scrollTo(0, document.body.scrollHeight);
     }, []);
 
     return (
