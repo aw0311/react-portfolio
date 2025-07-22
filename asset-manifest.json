@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.a546f1a4.css",
-    "main.js": "/react-portfolio/static/js/main.2ae0dd70.js",
+    "main.css": "/react-portfolio/static/css/main.2ac85445.css",
+    "main.js": "/react-portfolio/static/js/main.cff0d879.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
+    "static/media/database recording.gif": "/react-portfolio/static/media/database recording.346af6f0985509d6a747.gif",
     "static/media/Spriterecording-ezgif.com-video-to-gif-converter.gif": "/react-portfolio/static/media/Spriterecording-ezgif.com-video-to-gif-converter.ab9e8a2ac5094c09763c.gif",
     "static/media/SnakeGameImage.png": "/react-portfolio/static/media/SnakeGameImage.fd94e13b53b5fde0a39d.png",
     "static/media/selfie.jpg": "/react-portfolio/static/media/selfie.bd237d2b6d19d47c8fb8.jpg",
@@ -12,12 +13,12 @@
     "static/media/Bountiful_Logo.png": "/react-portfolio/static/media/Bountiful_Logo.96ef3e68ecd56dfef12b.png",
     "static/media/Ulogo.jpeg": "/react-portfolio/static/media/Ulogo.3e1beced58c8a2fcdff1.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.a546f1a4.css.map": "/react-portfolio/static/css/main.a546f1a4.css.map",
-    "main.2ae0dd70.js.map": "/react-portfolio/static/js/main.2ae0dd70.js.map",
+    "main.2ac85445.css.map": "/react-portfolio/static/css/main.2ac85445.css.map",
+    "main.cff0d879.js.map": "/react-portfolio/static/js/main.cff0d879.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a546f1a4.css",
-    "static/js/main.2ae0dd70.js"
+    "static/css/main.2ac85445.css",
+    "static/js/main.cff0d879.js"
   ]
 }
