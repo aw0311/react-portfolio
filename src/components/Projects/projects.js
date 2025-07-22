@@ -2,6 +2,7 @@ import './projects.scss'
 import snakeImage from '../../components/Projects/SnakeGameImage.png'
 import spreadsheet from '../../components/Projects/spreadsheet.jpg'
 import spriteEditor from '../../components/Projects/Spriterecording-ezgif.com-video-to-gif-converter.gif'
+import databaseGIF from '../../components/Projects/database recording.gif'
 import { useEffect } from 'react'
 
 const Projects = () => {
@@ -73,6 +74,28 @@ const Projects = () => {
                     <div className="project-zone-1">
                         <div className="project">
                             <div className="description">
+                                <h2>Video Game Database App</h2>
+                                <ul>
+                                    <li>
+                                        <strong>Personal Project</strong>
+                                    </li>
+                                    <li>Developed a dynamic database-driven application that allows users to <strong>search </strong> 
+                                        for video games and view relevant results in real time. Selecting a game from 
+                                        the search results displays a <strong>detailed information page</strong> with statistics such as ratings, 
+                                        supported platforms, and a comprehensive description. The search feature also includes 
+                                        <strong> intelligent suggestions</strong> to enhance user experience and efficiency.
+                                    </li>
+                                    <li>
+                                        Utilized <strong>Javascript</strong> and <strong>ReactJS</strong> for this project.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="image">
+                                <img src={databaseGIF} alt="Video Game Database Application" />
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="description">
                                 <h2>Spreadsheet Application</h2>
                                 <ul>
                                     <li>
@@ -88,7 +111,7 @@ const Projects = () => {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="spreadsheet-image">
+                            <div className="image">
                                 <img src={spreadsheet} alt="Spreadsheet Application" />
                             </div>
                         </div>

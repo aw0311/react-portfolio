@@ -1,20 +1,21 @@
 body {
     margin-bottom: 10rem;
-    overflow: hidden;
 }
 
 .projects-page {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
 
     .content-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
-        max-width: 1600px;
+        max-width: 80%;
 
         .title-zone {
             width: 100%;
@@ -45,7 +46,6 @@ body {
 
         h2 {
             color: #8d8d8d;
-            margin-top: 20px;
             font-weight: 400;
             font-size: 20px;
             font-family: sans-serif;
@@ -67,7 +67,7 @@ body {
             img {
                 width: 300px;
                 height: 300px;
-                margin-top: 20px;
+                margin-top: 40px;
                 border-radius: 10px;
                 border: 2px solid yellow;
                 animation: fadeIn 1s 2.0s backwards; 
@@ -78,7 +78,6 @@ body {
             img {
                 width: 350px;
                 height: 200px;
-                margin-top: 20px;
                 border-radius: 10px;
                 border: 2px solid yellow;
                 animation: fadeIn 1s 2.0s backwards; 
@@ -97,7 +96,7 @@ body {
         }
 
         .project-zone-1 {
-            flex: 1;
+            flex: 1 1 100%;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -107,5 +106,11 @@ body {
             display: flex;
             justify-content: space-between;
         }
+    }
+}
+
+@media (max-width: 1500px) {
+    .project-zone {
+        flex-wrap: wrap;
     }
 }
