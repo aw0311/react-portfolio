@@ -111,7 +111,16 @@ body {
     }
 
     .projects-page .content-container .project-zone h2{
-        font-size: 13px;
+        font-size: 15px;
         text-align: center;
+    }
+
+    .project {
+        .image {
+            img {
+                width: 200px;
+                height: 200px;
+            }
+        }
     }
 }
