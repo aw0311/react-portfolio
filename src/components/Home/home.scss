@@ -57,11 +57,18 @@
             width: 40%;
             img {
                 width: 100%;
-                height: auto;
                 border-radius: 10px;
                 border: 2px solid yellow;
                 animation: fadeIn 1s 2.0s backwards; 
             }
         }
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 5rem;
     }
 }

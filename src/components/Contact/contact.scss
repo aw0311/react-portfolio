@@ -45,3 +45,18 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .contact-page {
+
+        .content-container {
+            align-items: left;
+            justify-content: left;
+            padding: 2rem;
+
+            .text-zone {
+                width: 100%;
+            }
+        }
+    }
+}

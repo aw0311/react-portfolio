@@ -65,19 +65,9 @@ body {
 
         .image {
             img {
-                width: 300px;
-                height: 300px;
+                max-width: 300px;
+                max-height: 300px;
                 margin-top: 40px;
-                border-radius: 10px;
-                border: 2px solid yellow;
-                animation: fadeIn 1s 2.0s backwards; 
-            }
-        }
-
-        .spreadsheet-image {
-            img {
-                width: 350px;
-                height: 200px;
                 border-radius: 10px;
                 border: 2px solid yellow;
                 animation: fadeIn 1s 2.0s backwards; 
@@ -112,5 +102,16 @@ body {
 @media (max-width: 1500px) {
     .project-zone {
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        margin-top: 20px;
+    }
+
+    .projects-page .content-container .project-zone h2{
+        font-size: 13px;
+        text-align: center;
     }
 }
