@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.35937423.css",
-    "main.js": "/react-portfolio/static/js/main.6cccd407.js",
+    "main.js": "/react-portfolio/static/js/main.d0b2be4c.js",
     "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
     "static/media/database recording.gif": "/react-portfolio/static/media/database recording.346af6f0985509d6a747.gif",
     "static/media/Spriterecording-ezgif.com-video-to-gif-converter.gif": "/react-portfolio/static/media/Spriterecording-ezgif.com-video-to-gif-converter.ab9e8a2ac5094c09763c.gif",
@@ -16,11 +16,11 @@
     "static/media/Ulogo.jpeg": "/react-portfolio/static/media/Ulogo.3e1beced58c8a2fcdff1.jpeg",
     "index.html": "/react-portfolio/index.html",
     "main.35937423.css.map": "/react-portfolio/static/css/main.35937423.css.map",
-    "main.6cccd407.js.map": "/react-portfolio/static/js/main.6cccd407.js.map",
+    "main.d0b2be4c.js.map": "/react-portfolio/static/js/main.d0b2be4c.js.map",
     "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35937423.css",
-    "static/js/main.6cccd407.js"
+    "static/js/main.d0b2be4c.js"
   ]
 }
