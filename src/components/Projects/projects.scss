@@ -1,5 +1,9 @@
-body {
-    margin-bottom: 10rem;
+a {
+    color: #2ec4b6;
+
+    &:hover {
+        color: #1fa89c;
+    }
 }
 
 .projects-page {
@@ -16,6 +20,7 @@ body {
         flex-direction: column;
         justify-content: space-around;
         max-width: 80%;
+        margin-bottom: 80px;
 
         .title-zone {
             width: 100%;

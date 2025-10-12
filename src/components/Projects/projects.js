@@ -3,6 +3,8 @@ import snakeImage from '../../components/Projects/SnakeGameImage.png'
 import spreadsheet from '../../components/Projects/spreadsheet.jpg'
 import spriteEditor from '../../components/Projects/Spriterecording-ezgif.com-video-to-gif-converter.gif'
 import databaseGIF from '../../components/Projects/database recording.gif'
+import gradingGIF from '../../components/Projects/grading recording.gif'
+import numericalGIF from '../../components/Projects/education recording.gif'
 import { useEffect } from 'react'
 
 const Projects = () => {
@@ -28,6 +30,9 @@ const Projects = () => {
                                     <li>
                                         <strong>Team Project</strong>
                                     </li>
+                                    <li>
+                                        <a href="https://github.com/aw0311/SpriteEditor" target="_blank">View Code</a>
+                                    </li>
                                     <li>Collaborated with a <strong>team of six </strong> 
                                         to develop a <strong>Sprite Editor </strong> that supports 
                                         <strong> pixel-level drawing and animation </strong>. 
@@ -43,6 +48,32 @@ const Projects = () => {
                             </div>
                             <div className="image">
                                 <img src={spriteEditor} alt="Sprite Editor Gif" />
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="description">
+                                <h2>Grading Application</h2>
+                                <ul>
+                                    <li>
+                                        <strong>Solo Project</strong>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/aw0311/GradingApplication" target="_blank">View Code</a>
+                                    </li>
+                                    <li>Developed a web application that facilitates <strong>assignment submission </strong> and grading for
+                                        students, teachers, and teaching assistants. Implemented <strong>role-based authentication </strong>
+                                        to ensure secure access, allowing only authorized users (students, teachers, and TAs) 
+                                        to log in. The platform features <strong>dynamic content rendering </strong> based on user roles, enabling 
+                                        students to submit assignments and view grades, while teachers and TAs can evaluate submissions 
+                                        and manage grading.
+                                    </li>
+                                    <li>
+                                        Utilized <strong>Python/Django, Javascript, HTML, CSS </strong> and <strong>VSCode </strong> for this project.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="image">
+                                <img src={gradingGIF} alt="Grading Application" />
                             </div>
                         </div>
                         <div className="project">
@@ -79,11 +110,17 @@ const Projects = () => {
                                     <li>
                                         <strong>Personal Project</strong>
                                     </li>
+                                    <li>
+                                        <a href="https://aw0311.github.io/videogame-db-app/" target="_blank">View Site</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/aw0311/videogame-db-app" target="_blank">View Code</a>
+                                    </li>
                                     <li>Developed a dynamic database-driven application that allows users to <strong>search </strong> 
                                         for video games and view relevant results in real time. Selecting a game from 
-                                        the search results displays a <strong>detailed information page</strong> with statistics such as ratings, 
+                                        the search results displays a <strong>detailed information page </strong> with statistics such as ratings, 
                                         supported platforms, and a comprehensive description. The search feature also includes 
-                                        <strong> intelligent suggestions</strong> to enhance user experience and efficiency.
+                                        <strong> intelligent suggestions </strong> to enhance user experience and efficiency.
                                     </li>
                                     <li>
                                         Utilized <strong>Javascript</strong> and <strong>ReactJS</strong> for this project.
@@ -92,6 +129,27 @@ const Projects = () => {
                             </div>
                             <div className="image">
                                 <img src={databaseGIF} alt="Video Game Database Application" />
+                            </div>
+                        </div>
+                        <div className="project">
+                            <div className="description">
+                                <h2>Numerical Conversion Application</h2>
+                                <ul>
+                                    <li>
+                                        <strong>Team Project</strong>
+                                    </li>
+                                    <li>Built an educational app to <strong>teach decimal, binary, and hexadecimal conversions </strong>
+                                        through six <strong>interactive modules</strong>. Included immediate feedback with <strong>sound effects </strong>,
+                                        and unlocked a <strong>certificate of completion </strong> upon finishing all modules which can be <strong>saved </strong>
+                                        on the device using <strong>JSON</strong>.
+                                    </li>
+                                    <li>
+                                        Utilized <strong>C++</strong> and <strong>QT</strong> for this project.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="image">
+                                <img src={numericalGIF} alt="Numerical Conversion Application" />
                             </div>
                         </div>
                         <div className="project">

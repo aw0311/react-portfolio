@@ -23,6 +23,7 @@ const Home = () => {
                     <h2>Computer Science Student / University of Utah</h2>
                     <br />
                     <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
+                    <Link to ="/projects" className='flat_button'>VIEW PROJECTS</Link>
                 </div>
                 <div className="image">
                     <img src={selfie} alt="Myself" />

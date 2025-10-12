@@ -24,7 +24,7 @@ const About = () => {
                     <h1>About Me</h1>
                     <h2>Education</h2>
                     <ul>
-                        <li>Senior at the University of Utah</li>
+                        <li>Junior at the University of Utah</li>
                         <li>Studying Computer Science with a minor in Mathematics</li>
                         <li>3.6 GPA</li>
                     </ul>
