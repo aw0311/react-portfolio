@@ -24,7 +24,7 @@ const Home = () => {
                     <br />
                     <div className="home-buttons">
                         <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
-                        <Link to ="/projects" className='flat_button'>VIEW PROJECTS</Link>
+                        <Link to ="/projects" className='flat-button'>VIEW PROJECTS</Link>
                     </div>
                 </div>
                 <div className="image">
