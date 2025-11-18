@@ -15,6 +15,12 @@
         .text-zone {
             width: 50%;
 
+            .home-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
             .flat-button {
                 background: black;
                 text-decoration: none;

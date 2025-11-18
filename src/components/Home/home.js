@@ -22,8 +22,10 @@ const Home = () => {
                     </h1>
                     <h2>Computer Science Student / University of Utah</h2>
                     <br />
-                    <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
-                    <Link to ="/projects" className='flat_button'>VIEW PROJECTS</Link>
+                    <div className="home-buttons">
+                        <Link to ="/contact" className='flat-button'>CONTACT ME</Link>
+                        <Link to ="/projects" className='flat_button'>VIEW PROJECTS</Link>
+                    </div>
                 </div>
                 <div className="image">
                     <img src={selfie} alt="Myself" />
