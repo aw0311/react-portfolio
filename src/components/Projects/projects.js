@@ -1,10 +1,10 @@
 import './projects.scss'
 import snakeImage from '../../components/Projects/SnakeGameImage.png'
-import spreadsheet from '../../components/Projects/spreadsheet.jpg'
 import spriteEditor from '../../components/Projects/Spriterecording-ezgif.com-video-to-gif-converter.gif'
 import databaseGIF from '../../components/Projects/database recording.gif'
 import gradingGIF from '../../components/Projects/grading recording.gif'
 import numericalGIF from '../../components/Projects/education recording.gif'
+import drawingGIF from '../../components/Projects/DrawingAppRecording.gif'
 import { useEffect } from 'react'
 
 const Projects = () => {
@@ -105,30 +105,24 @@ const Projects = () => {
                     <div className="project-zone-1">
                         <div className="project">
                             <div className="description">
-                                <h2>Video Game Database App</h2>
+                                <h2>Mobile Drawing Application</h2>
                                 <ul>
                                     <li>
-                                        <strong>Personal Project</strong>
+                                        <strong>Trio Project</strong>
+                                    </li>
+                                    <li>Developed an <strong>Android drawing application</strong> using <strong>Jetpack Compose</strong> and <strong>MVVM architecture</strong>,
+                                        allowing users to create artwork with customizable <strong>brushes</strong>, <strong>colors</strong>, and <strong>backgrounds</strong>. 
+                                        Implemented <strong>local persistence with Room</strong> and <strong>cloud storage and sharing via Firebase</strong>. 
+                                        Integrated <strong>Google Cloud Vision AI</strong> to <strong>detect objects</strong> within drawings and identify their <strong>
+                                        locations on the canvas</strong>.
                                     </li>
                                     <li>
-                                        <a href="https://aw0311.github.io/videogame-db-app/" target="_blank">View Site</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/aw0311/videogame-db-app" target="_blank">View Code</a>
-                                    </li>
-                                    <li>Developed a dynamic database-driven application that allows users to <strong>search </strong> 
-                                        for video games and view relevant results in real time. Selecting a game from 
-                                        the search results displays a <strong>detailed information page </strong> with statistics such as ratings, 
-                                        supported platforms, and a comprehensive description. The search feature also includes 
-                                        <strong> intelligent suggestions </strong> to enhance user experience and efficiency.
-                                    </li>
-                                    <li>
-                                        Utilized <strong>Javascript</strong> and <strong>ReactJS</strong> for this project.
+                                        Utilized <strong>Kotlin, JetPack Compose</strong> and <strong>Android Studio</strong> for this project.
                                     </li>
                                 </ul>
                             </div>
                             <div className="image">
-                                <img src={databaseGIF} alt="Video Game Database Application" />
+                                <img src={drawingGIF} alt="Mobile Drawing Application" />
                             </div>
                         </div>
                         <div className="project">
@@ -154,23 +148,30 @@ const Projects = () => {
                         </div>
                         <div className="project">
                             <div className="description">
-                                <h2>Spreadsheet Application</h2>
+                                <h2>Video Game Database App</h2>
                                 <ul>
                                     <li>
-                                        <strong>Duo Project</strong>
-                                    </li>
-                                    <li>Developed a spreadsheet application which includes <strong>interactive </strong> 
-                                        cells that could receive formulas, numbers or strings. Also implemented  
-                                        <strong> arrow key </strong> navigation as
-                                        an extra feature.
+                                        <strong>Personal Project</strong>
                                     </li>
                                     <li>
-                                        Utilized <strong>C#</strong> and <strong>Blazor</strong> for this project.
+                                        <a href="https://aw0311.github.io/videogame-db-app/" target="_blank">View Site</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/aw0311/videogame-db-app" target="_blank">View Code</a>
+                                    </li>
+                                    <li>Developed a dynamic database-driven application that allows users to <strong>search </strong> 
+                                        for video games and view relevant results in real time. Selecting a game from 
+                                        the search results displays a <strong>detailed information page </strong> with statistics such as ratings, 
+                                        supported platforms, and a comprehensive description. The search feature also includes 
+                                        <strong> intelligent suggestions </strong> to enhance user experience and efficiency.
+                                    </li>
+                                    <li>
+                                        Utilized <strong>Javascript</strong> and <strong>ReactJS</strong> for this project.
                                     </li>
                                 </ul>
                             </div>
                             <div className="image">
-                                <img src={spreadsheet} alt="Spreadsheet Application" />
+                                <img src={databaseGIF} alt="Video Game Database Application" />
                             </div>
                         </div>
                     </div>
